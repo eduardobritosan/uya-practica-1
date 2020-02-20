@@ -34,7 +34,7 @@ http://www.gobiernodecanarias.org
 ### ¿La página tiene alguna cookie?, ¿Cuáles?
 
 No tiene cookies
-![Cookie vacia](images\cookieVacia.png)
+![Cookie vacia](images/cookieVacia.png)
 
 ### ¿Qué idioma acepta?.
 
