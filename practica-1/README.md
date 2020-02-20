@@ -99,6 +99,6 @@ El parametro Accept-Language depende de la maquina que haga la solicitud, en el 
 
 ### Alguna línea de código HTML que se aplique
 
-```htmml
+```html
 <h1 style="font-size:32px;">Cita previa</h1>
 ```
