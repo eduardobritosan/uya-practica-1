@@ -2,19 +2,19 @@
 
 ## [Link 1](http://www.gobiernodecanarias.org/istac/api/)
 
-### Qué peticiones desencadena la consulta.
+### ¿Qué peticiones desencadena la consulta?
 
 
 ### ¿Qué tipo de petición estás realizando?
 
 
-### Qué código de estatus devuelve.
+### ¿Qué código de estatus devuelve?
 
 
-### Qué DNS tiene el servidor
+### ¿Qué DNS tiene el servidor?
 
 
-### Qué IP tiene tiene el servidor
+### ¿Qué IP tiene tiene el servidor?
 
 
 ### ¿La página tiene alguna cookie?, ¿Cuáles?
@@ -35,19 +35,19 @@
 
 ## [Link 2](http://www3.gobiernodecanarias.org/sanidad/scs/gc/18/Cita_Previa/index.html)
 
-### Qué peticiones desencadena la consulta.
+### ¿Qué peticiones desencadena la consulta?
 
 
 ### ¿Qué tipo de petición estás realizando?
 
 
-### Qué código de estatus devuelve.
+### ¿Qué código de estatus devuelve?
 
 
-### Qué DNS tiene el servidor
+### ¿Qué DNS tiene el servidor?
 
 
-### Qué IP tiene tiene el servidor
+### ¿Qué IP tiene tiene el servidor?
 
 
 ### ¿La página tiene alguna cookie?, ¿Cuáles?
@@ -63,4 +63,5 @@
 
 
 ### Alguna línea de código HTML que se aplique
+
 
