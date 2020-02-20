@@ -66,7 +66,7 @@ Ejemplo del código HTML usado es:
 
 ### ¿Qué peticiones desencadena la consulta?
 
-La web genera una serie de peticiones: 
+La web genera una serie de peticiones: 3 .js, 2.css, 1 html y tres imagenes.
 ![Peticiones web 2](images/Paquetes-Link2.png)
 
 ### ¿Qué tipo de petición estás realizando?
