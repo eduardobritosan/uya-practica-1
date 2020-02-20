@@ -42,23 +42,45 @@ El parametro Accept-Language depende de la maquina que haga la solicitud, en el 
 
 ### Alguna línea de código JavaScript
 
+No usa código JavaScript 
 
 ### Alguna línea de código CSS que se aplique
 
+```css
+.section h1, .section h2 {
+    	    padding-bottom: 10px;
+    	    font-weight: 700;
+    	    font-size: 25px;
+```
 
 ### Alguna línea de código HTML que se aplique
-
-
+Ejemplo del código HTML usado es:
+```html
+	<div id="footer" class="section">
+		<div class="izq"> Gobierno de Canarias</div>
+		<div class="der">...</div>
+	</div>
+```
 
 ## [Link 2](http://www3.gobiernodecanarias.org/sanidad/scs/gc/18/Cita_Previa/index.html)
 
 ### ¿Qué peticiones desencadena la consulta?
 
+La web genera una serie de peticiones: 
+![Peticiones web 2](images/Paquetes-Link2.png)
 
 ### ¿Qué tipo de petición estás realizando?
 
+Todas son peticiones HTML del tipo GET
 
 ### ¿Qué código de estatus devuelve?
+
+Los dos tipos de Estados que se generan son el 200
+![200](images/Codigo_Estatus_200.png)
+
+Y el estado 404
+
+![404](images/Codigo_Estatus_404.png)
 
 
 ### ¿Qué DNS tiene el servidor?
