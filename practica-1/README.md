@@ -75,7 +75,7 @@ La página dispone de cookies para analitica : _ga=GA1.2.2009145986.1577728853
 
 ### ¿Qué idioma acepta?.
 
-El idioma acceptado por espa pgina será : `es-ES,es;q=0.9`
+El parametro Accept-Language depende de la maquina que haga la solicitud, en el caso de nuestro grupo, en los ordenadores que estan en español el valor es `es-ES, es; q=0.9`, pero en otro ordenador que esta en ingles, el valor de dicho parametro es `en-GB,en;q=0.9,en-US;q=0.8,es;q=0.7`
 
 
 ### Alguna línea de código JavaScript
