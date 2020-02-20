@@ -5,24 +5,40 @@
 
 ### ¿Qué peticiones desencadena la consulta?
 
-
+La consulta desencadena una peticion de documento HTML, dos de CSS, 5 de imagenes, con la de favicon fallando.
 ### ¿Qué tipo de petición estás realizando?
 
+Las peticiones realizadas son exclusivamente HTTP de tipo GET, ya que la pagina no necesita ninguna informacion que provea el usuario, es meramente informativa.
 
 ### ¿Qué código de estatus devuelve?
 
+Los codigos de respuesta son:
+
+- 200 OK
+- 302 Found
+- 302 Found
+- 302 Found
+- 200 OK
+- 200 OK
+- 200 OK
+- 404 Not Found (en el favicon)
 
 ### ¿Qué DNS tiene el servidor?
 
+http://www.gobiernodecanarias.org
 
 ### ¿Qué IP tiene tiene el servidor?
 
+93.188.137.123
 
 ### ¿La página tiene alguna cookie?, ¿Cuáles?
 
+No tiene cookies
+![Cookie vacia](images\cookieVacia.png)
 
 ### ¿Qué idioma acepta?.
 
+El parametro Accept-Language depende de la maquina que haga la solicitud, en el caso de nuestro grupo, en los ordenadores que estan en español el valor es `es-ES, es; q=0.9`, pero en otro ordenador que esta en ingles, el valor de dicho parametro es `en-GB,en;q=0.9,en-US;q=0.8,es;q=0.7`
 
 ### Alguna línea de código JavaScript
 
