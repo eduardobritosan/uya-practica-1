@@ -7,3 +7,5 @@ David Rodriguez Rodriguez
 Sergio Torres Rodriguez
 
 ## [Practica 1](https://github.com/eduardobritosan/uya-practicas/tree/master/practica-1)
+
+## [Practica 2](https://github.com/eduardobritosan/uya-practicas/tree/master/practica-2)
