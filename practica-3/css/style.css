@@ -1,0 +1,42 @@
+body{
+    width: 770px;
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+footer, header, #right-column{
+    width: 430px;
+} 
+
+#right-column header{
+    height: 100px;
+    background-image: "images/cabecera.jpg";
+}
+
+a {
+    color: blue;
+}
+
+a:hover{
+    color: red;
+}
+
+table a{
+    color: green;
+}
+
+p {
+    margin-top: 0.5em;
+}
+
+.menu-elements{
+    padding: 0.3em;
+    margin-bottom: 0.7em;
+    background-color: coral;
+}
+
+.menu-elements:hover{
+    background-color: crimson;
+}
+
