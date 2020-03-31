@@ -30,5 +30,6 @@ function conversor() {
         resultado = 5858.99 * valor;
     }
     document.getElementById("result").innerHTML = resultado;
+    console.log(resultado);
 };
 
