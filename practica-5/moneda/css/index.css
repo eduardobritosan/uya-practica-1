@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(211, 211, 211);
+
+}
+
+.cajon {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    background-color: darkgray;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+.titulo{
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.centrado{
+    text-align: right;
+}
+
+.boton{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
