@@ -1,6 +1,6 @@
 # Practica 7 Introduccion Firebase I
 
-## Integrantes grupo 16.
+## Integrantes grupo 18.
 
 ### Eduardo Ernesto Brito Sanchez
 ### David Rodriguez Rodriguez
