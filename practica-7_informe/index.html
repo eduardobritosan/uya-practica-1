@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Practica 7 Informe</title>
+    
+    
+</head>
+<body>
+
+    <h1>Test de Firebase</h1>
+
+    <div class="container">
+        <h3>Añadir usuarios a nuestra base de datos</h3>
+        <form id="formularioAlta">
+            <div >
+                <label for="ID">ID</label>
+                <input type="text"  id="Id" placeholder="Numero ID">
+            </div>
+            <br>
+            <div >
+                <label for="Nombre">Nombre</label>
+                <input type="text"  id="Nombre" placeholder="Nombre de la persona">
+            </div>
+            <br>
+            <div >
+                <label for="Correo">Correo</label>
+                <input type="text"  id="Correo" placeholder="Introduzca el Correo" ></input>
+            </div>
+            <br>
+            <div >
+                <label for="Edad">Edad</label>
+                <input type="text"  id="Edad" placeholder="Edad">
+            </div>
+            <button type="button"  id="Guardar" >Guardar</button>
+        </form>
+    </div>
+    
+    <div class="container caja">
+        <h3>Muestra datos del usuario</h3>
+        <div >
+            <label for="Id">ID</label>
+            <input type="text" id="id2" placeholder="ID">
+        </div>
+        <button type="button"  id="Mostrar" >Mostrar</button>
+    </div>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-database.js"></script>
+
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyAaoAO5vWuXL-QeULhsdoW0EVryx4csD0Y",
+          authDomain: "uyap-b63a7.firebaseapp.com",
+          databaseURL: "https://uyap-b63a7.firebaseio.com",
+          projectId: "uyap-b63a7",
+          storageBucket: "uyap-b63a7.appspot.com",
+          messagingSenderId: "858416141658",
+          appId: "1:858416141658:web:6e45386d9d708716918f63",
+          measurementId: "G-0CZCCSG2D2"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+
+        var nombre;
+        var correo;
+        var edad;
+        var id;
+        var database = firebase.database();
+        var guardar =  document.querySelector("#Guardar");
+        var mostrar = document.querySelector("#Mostrar");
+    
+        console.log("casa")
+
+
+        guardar.onclick = () => {
+        id = document.getElementById("Id").value;
+        nombre=document.getElementById("Nombre").value;
+        correo=document.getElementById("Correo").value;
+        edad=document.getElementById("Edad").value;
+        var referencia = database.ref('Usuarios/' + id);
+            console.log(nombre);
+            console.log(correo);
+            console.log(edad);
+        const data = {
+                'Nombre': nombre,
+                'Correo': correo,
+                'Edad': edad 
+            };
+        
+        referencia.set(data);
+        }
+
+        mostrar.onclick = () => {
+            var id = document.getElementById("id2").value;
+            var referencia = database.ref('Usuarios/' + id);
+            referencia.on('value', snapshot => {
+            const caja = document.querySelector('.caja');
+            const nombre_ = document.createElement('div');
+            const correo_ = document.createElement('div');
+            const edad_ = document.createElement('div');
+
+            nombre_.textContent = "Nombre : " + snapshot.val().Nombre;
+            correo_.textContent = "Correo : " + snapshot.val().Correo;
+            edad_.textContent = "Edad : " + snapshot.val().Edad;
+
+            caja.appendChild(nombre_);
+            caja.appendChild(correo_);
+            caja.appendChild(edad_);
+
+
+            
+            
+            console.log("Usuario 1: ", snapshot.val().sexo);
+  });
+
+
+        }
+
+
+      </script>
+    
+</body>
+</html>
