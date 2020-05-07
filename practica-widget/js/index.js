@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const boton1 = document.querySelector("#acordeon1");
     boton1.onclick = () => {
         const body1 = document.querySelector("#body1").getAttribute("hidden");
-        if (body1 === "false" || body1 === "false") {
+        if (body1 === "false" || body1 === "") {
             document.querySelector("#body1").setAttribute("hidden", "true");
         }else{
             document.querySelector("#body1").setAttribute("hidden", "false");
