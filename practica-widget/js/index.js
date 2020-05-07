@@ -2,10 +2,12 @@ document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.collapsible');
 
     const boton1 = document.querySelector("#acordeon1");
-    const aria = document.querySelector("#acordeon1").getAttribute("aria-extended");
     boton1.onclick = () => {
-        if (aria === "false") {
-            document.querySelector("#acordeon1").setAttribute("aria", "true");
+        const body1 = document.querySelector("#body1").getAttribute("hidden");
+        if (boton1 === "false" || boton1 === "false") {
+            document.querySelector("#body1").setAttribute("hdidden", "true");
+        }else{
+            document.querySelector("#body1").setAttribute("hidden", "false");
         }
     }
 
