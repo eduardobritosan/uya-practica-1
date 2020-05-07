@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     boton1.onclick = () => {
         const body1 = document.querySelector("#body1").getAttribute("hidden");
         if (boton1 === "false" || boton1 === "false") {
-            document.querySelector("#body1").setAttribute("hdidden", "true");
+            document.querySelector("#body1").setAttribute("hidden", "true");
         }else{
             document.querySelector("#body1").setAttribute("hidden", "false");
         }
