@@ -3,3 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Collapsible.init(elems, options);
     instances.open(3);
   });
+
+$(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
