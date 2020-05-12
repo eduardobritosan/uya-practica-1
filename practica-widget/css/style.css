@@ -1,5 +1,53 @@
-#foto{
-    height: 100px;
-    width: 300px;
-    
+body {
+  background-color: rgba(153, 102, 52, 0.414);
+  font-size: 1.05em;
+  font-family: Arial, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+  ul {
+    margin-top: 0.5em;
+  }
+
+a {
+    text-decoration: none;
+    transition: all 200ms ease;
+  }
+  
+  a:hover {
+    color: red;
+  }
+
+  .colum {
+    height: auto;
+  }
+
+  .container-acordeon{
+    width: auto;
+    height: auto;
+    border: black 2px solid;
+    margin: 10px;
+  }
+  
+  .btn-acordeon{
+
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .espacio{
+
+    margin: 10px;
+    padding: 10px;
+  }
+
+.fila {
+  height: 20vh;
+}
+
+
+.corrusel{
+  flex: 1 0 auto;
 }
