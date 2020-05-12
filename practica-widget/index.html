@@ -61,26 +61,24 @@
 
 <div class="carrusel">
 
-  <div class=" carousel carousel-slider center" aria-live="assertive">
+  <div class=" carousel carousel-slider center" aria-live="assertive" >
     <div class="carousel-fixed-item " tabindex="0">
-        <button tabindex="0" type="button" onkeypress="return desplazar(event);" class="btn waves-button-input"
-        aria-controls="cuadro" id="btn-next" aria-label="avanzar a la siguiente" name="Avanzar">Avanzar</button>
+      <button tabindex="0" type="button" onkeypress="return desplazar(event);" class="btn waves-button-input"
+      aria-controls="cuadro" id="btn-next" aria-label="avanzar a la siguiente" name="Avanzar">Avanzar</button>
+  </div>
+    <div class="carousel-item" href="#one!" aria-hidden="false" tabindex="-1" id="cuadro">
+      <img src="http://i.picsum.photos/id/2/800/400.jpg" alt="aleatorio">
     </div>
-    <div class="carousel-item red white-text" href="#one!" aria-hidden="false" tabindex="-1" id="cuadro">
-        <h2>First Panel</h2>
-        <p class="white-text" id="p1">This is your first panel</p>
+    <div class="carousel-item" href="#tow!" aria-hidden="true" tabindex="-1" id="cuadro">
+      <img src="http://i.picsum.photos/id/7/800/400.jpg" alt="aleatorio">
     </div>
-    <div class="carousel-item amber white-text" href="#two!" aria-hidden="true" tabindex="-1" id="cuadro">
-        <h2>Second Panel</h2>
-        <p class="white-text" id="p2">This is your second panel</p>
+    <div class="carousel-item" href="#three!" aria-hidden="true" tabindex="-1" id="cuadro">
+      <img src="http://i.picsum.photos/id/9/800/400.jpg" alt="aleatorio">
     </div>
-    <div class="carousel-item green white-text" href="#three!" aria-hidden="true" tabindex="-1" id="cuadro">
-        <div class="center-align">
-            <h2>Third Panel</h2>
-            <p class="white-text" id="p3">This is your third panel</p>
-        </div>
-    </div>
-</div>
+    
+  </div>
+ 
+
 </div>
   
     
@@ -104,9 +102,9 @@
     $('.collapsible').collapsible();
     });
 
-      var bton1=document.getElementById("acordeon1");
-      var bton2=document.getElementById("acordeon2");
-      var bton3=document.getElementById("acordeon3");
+      var bton1=document.getElementById("acordeon-1");
+      var bton2=document.getElementById("acordeon-2");
+      var bton3=document.getElementById("acordeon-3");
 
       bton1.onclick = () => {
         var x = acor1.getAttribute("aria-expanded");
@@ -157,7 +155,7 @@
             });
         });
 
-      function desplazar(even) {
+        function desplazar(even) {
             $('.carousel').carousel('next');
         }
 
