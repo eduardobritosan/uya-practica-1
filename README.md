@@ -24,6 +24,6 @@ Sergio Torres Rodriguez
 
 ## [Practica 8](https://github.com/eduardobritosan/uya-practicas/tree/master/practica-8)
 
-## [Practica 9](https://github.com/eduardobritosan/uya-practicas/tree/master/practica-widget)y [Despliegue]()
+## [Practica Widgets](https://github.com/eduardobritosan/uya-practicas/tree/master/practica-widget)y [Despliegue]()
 
 
