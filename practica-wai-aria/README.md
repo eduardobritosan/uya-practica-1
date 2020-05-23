@@ -4,12 +4,12 @@ Para esta práctica hemos revisados las páginas creadas anteriormente con la ex
 
 ## Práctica-2
 
-![](gif/p2 antes.gif)
+![](gif/p2antes.gif)
 
-![](gif/p2 antes.gif)
+![](gif/p2antes.gif)
 
 ## Práctica-4
 
-![](gif/p4 antes.gif)
+![](gif/p4antes.gif)
 
-![](gif/p4 antes.gif)
+![](gif/p4antes.gif)
